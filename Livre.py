@@ -52,7 +52,7 @@ class Livre:
                 print("====== ATTENTION !!! Ce livre sera supprimé !!! =========")
                 print("\n", ligne[int(x) - 1])
                 print("===================================================================")
-                y = input("Êtes-vous sûr de le supprimer ? O/N ")
+                y = input("Êtes-vous sûr de vouloir le supprimer ? O/N ")
                 if y == "o" or y == "O":
                     listeTemp = []
                     for i in range(0, len(ligne)):

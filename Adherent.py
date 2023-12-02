@@ -10,19 +10,27 @@ class Adherent:
             if n.isnumeric():
                 x = 0
                 while x < int(n):
-                    print("===============================================")
+                    print("""
+    ===================================================
+                    """)
                     self.nom = input("Nom d'adhérent: ")
                     self.prenom = input("Prénom d'adhérent: ")
                     self.num = input("Num d'adhérent: ")
                     d = str(self.nom) + ", " + str(self.prenom) + ", " + str(self.num)
                     listeAdherent.append(d)
                     x = x + 1
-                print("========== Liste des adhérents ajoutés: ============")
+                print("""
+    ===================================================
+    ========= Liste des adhérents ajoutés  ============
+    ===================================================
+                """)
                 x = 0
                 while x < int(n):
                     print("Adhérent num: ", x + 1, "\n", listeAdherent[x])
                     x = x + 1
-                print("====================================================")
+                print("""
+    ===================================================
+                """)
                 flag=0
             else:
                 print("Saisie non accptée !!! Saisir un nombre ")
@@ -48,10 +56,17 @@ class Adherent:
             x = input("Saisir l'ID d'adhérent à supprimer: ")
             if x.isnumeric() and int(x)-1 < len(ligne):
                 flag = 0
-                print("====== ATTENTION !!! Cet adhérent sera supprimé !!! =========")
+                print("""
+    ===================================================
+    ================= ATTENTION !!!  ==================
+    ========== Cet adhérent sera supprimé !!!==========
+    ===================================================
+                """)
                 print("\n", ligne[int(x)-1])
-                print("===================================================================")
-                y = input ("Êtes-vous sûr de le supprimer ? O/N ")
+                print("""
+    ===================================================
+                """)
+                y = input ("Êtes-vous sûr de vouloir le supprimer ? O/N ")
                 if y == "o" or y == "O":
                     listeTemp = []
                     for i in range(0, len(ligne)):
@@ -61,12 +76,24 @@ class Adherent:
                     for x in listeTemp:
                         f.write(x)
                     f.close()
-                    print("========= Suppression d'adhérent réussi =========")
+                    print("""
+    ===================================================
+    ========= Suppression d'adhérent réussie ==========
+    ===================================================
+                    """)
                 else:
-                    print("============== Suppression d'adhérent annulée =================")
+                    print("""
+    ====================================================
+    ========= Suppression d'adhérent annulée ===========
+    ====================================================
+                    """)
                 flag = 0
             else:
-                print("Ce numéro d'adhérent n'existe pas !!!")
+                print("""
+    ===================================================
+    ======= Ce numéro d'adhérent n'existe pas !!! =====
+    ===================================================
+                """)
                 flag = 1
 listeAdherent = []
 #Création d'objets

@@ -1,7 +1,7 @@
 java, 200, 3333333
 Windows server2022, 500, 123456
 Office 365, 300, 4526398
-Cybersecurity for dummies, 350, 2145826
+Cybersecurity for dummies, 350, 215826
 Apprendre Ã  programmer avec Python, 435, 58600572
 Programmer avec C++, 450, 785426392
-Commutation réseau, 250, 1548596
+Commutation rï¿½seau, 250, 1548596

@@ -1,4 +1,4 @@
-# Classe Adhérent permet d'ajouter un adhérent, d'afficher la liste des adhérents et supprimer un adhérent
+# Classe Adhérent permet d'ajouter un adhérent, d'afficher la liste des adhérents et supprimer un adhérents
 class Adherent:
     def __init__(self, p_nom="", p_prenom="", p_num=""):
         self.nom = p_nom

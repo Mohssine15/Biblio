@@ -1,4 +1,4 @@
-#menu et programme principale qui gére la bibliothéque et fait appel aux classes: Adherent, Livre et Emprunt
+#menu et programme principale qui gére la bibliothéque et fait appel aux classes: Adherent, Livre et Emprunts
 from Adherent import Adherent
 from Livre import Livre
 from Emprunt import Emprunt

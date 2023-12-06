@@ -1,4 +1,4 @@
-# Classe Livre permet d'ajouter un livre, d'afficher la liste des livres et supprimer un livre
+# Classe Livre permet d'ajouter un livre, d'afficher la liste des livres et supprimer un livres
 class Livre:
     def __init__(self, p_titre="", p_nbrPages="", p_ISBN=""):
         self.titre = p_titre

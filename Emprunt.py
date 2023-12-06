@@ -1,4 +1,4 @@
-# Classe Emprunt permet d'ajouter un emprunt, d'afficher la liste des emprunts et supprimer un emprunt
+# Classe Emprunt permet d'ajouter un emprunt, d'afficher la liste des emprunts et supprimer un emprunts
 class Emprunt:
     def __init__(self, p_titre="", p_nom="", p_date=""):
         self.titre = p_titre

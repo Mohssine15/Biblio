@@ -1,7 +1,7 @@
 C++, AA, 12/11/2023
 Java, BB, 20/11/2023
 Linux, CC, 03/08/2023
-Windows server 2019, DD, 09/10/2023
+Windows server 2019, DD, 09/11/2023
 Language C, KK, 15/06/2023
 Python, PP, 06/04/2023
 Office 365, BB, 15/19/2023
